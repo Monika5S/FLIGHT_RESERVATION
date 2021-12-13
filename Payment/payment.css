@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+	display: flex;
+	width:100%;
+}
+
+header h1
+{
+    font-family: cursive;
+    font-size: 40px;
+    width: 67%;
+    color: whitesmoke;
+    margin-left: 4%;
+	height: 100px;
+	padding-top: 2px;
+}
+
+
+header nav{
+	width:30%;
+    display: block;
+    text-align:center;
+	padding-top: 3%;
+	background-color: #245b;
+	border-bottom-left-radius: 50px;
+  }
+  
+ header nav a{  
+	padding:10% 5%;
+	font-size: 20px;
+	color: whitesmoke;
+  }
+  
+ header nav a:hover {
+    background-color:darkgrey;
+  }
+
+body
+{
+	background-color: #040D21;
+}
+
+.Amt
+{
+	display:flex;
+	column-gap:5%;
+}
+
+a
+{
+	text-decoration-line: none;
+	color: black;
+}
+
+.main_container .maincontent h1{
+	text-align: left;
+}
+
+.main_container{
+	  background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-h5-web-design-sci-fi-background-banner-image_156041.jpg);
+	  background-size:100% 100%;
+	  background-repeat: no-repeat;
+	  padding:1% 1%;
+	  font-family:serif;
+	  font-size: 20px;
+  }
+
+.maincontent label
+   {
+	  width:10%; 
+	  float:left;
+	  margin-left:20%;
+	  margin-right:0px;
+	  font-size: 60%;
+	  color:rgb(221, 217, 217);
+	  font-family:sans-serif;
+	  font-size: 20px;
+  } 
+
+.maincontent input[type="text"],[type="tel"],[type="password"],[type="month"],[type="tel"]
+  {
+	  padding:8px;
+	  width:30%;
+	  margin-right:26%;
+  }
+.maincontent{
+	width:60%;
+	margin: auto;
+	padding: 1%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	margin-top: 40px;
+	box-shadow: 10px 10px 5px black;
+	text-align:center;
+  }
+
+  .secure{
+	  color: yellowgreen;
+	  font-family:fantasy;
+  }
+
+#types{
+	margin-top:4px;
+	padding:9px;
+	width:32%;
+	text-align: left;
+	margin-right: 195px;
+}
+
+  .button {
+	background-color: #c91c05; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+footer{
+	height: 40px;
+	color: blanchedalmond;
+	text-align: center;
+	margin-top: 15px;
+	font-size:20px;
+}

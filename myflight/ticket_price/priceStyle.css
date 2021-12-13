@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body
+{
+	background-image: url('https://www.chatelaine.com/wp-content/uploads/2019/04/how-do-airplanes-affect-the-environment.jpg');
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.pricing
+{
+	width:70%;
+	margin: auto;
+	padding: 1%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	margin-top: 40px;
+	box-shadow: 10px 10px 5px black;
+	
+	font-family: monospace;
+	font-size: 20px;
+	display:flex;
+}
+
+
+.c {
+  flex:1;
+  padding: 10px;
+}
+
+button
+{
+	background-color:midnightblue;
+	color:white;
+	border-radius: 8px;
+	padding:2% 4%;
+	margin:2% 10% ;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+button:hover
+{
+	background-color:bisque;
+	color:blue;
+}

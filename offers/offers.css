@@ -1,0 +1,33 @@
+h2{
+    color: bisque;
+}
+
+img{
+    border-radius: 50%;
+    width:30%;
+    margin-right:1.5%;
+    margin-left: 1.5%;
+}
+
+p{
+    margin:2% 5% ;
+    color:ghostwhite;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+li{
+    margin-left:7%;
+    font-size: 20px;
+    color:ghostwhite;
+}
+
+button{
+    background-color: ghostwhite;
+    color: darkgreen;
+    padding: 14px 20px;
+    margin:2% 40%;
+    width: 15%;
+	border-radius: 50px;
+}

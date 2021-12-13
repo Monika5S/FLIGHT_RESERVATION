@@ -1,0 +1,127 @@
+<!Doctype.html>
+<html>
+	<head>
+		<title>MY_FLIGHT</title>
+        <link rel="icon" type="image/png" href="plane.png"/>
+	</head>
+	
+	<style>
+		@import url("/homeStyle.css");
+		@import url("/myflight/FlightStyle.css");
+	</style>
+	
+	<header>
+    <h1>MY FLIGHT</h1>
+		<nav>
+			<a href="/index.html">Home</a>
+			<a href="MyFlight.html">My flight </a>
+			<a href="/Information/info.html">Informtion</a>
+		</nav>
+	</header>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="flight.js"></script>
+	
+	<body>
+		<nav class="navbar">
+			<a href="#">Book Flight</a>
+			<a href="/cancelflight/cancelflight.html">Cancel Flight</a>
+			<a href="/Passengerinfo/PassengerInformtion.html">Passenger Info</a>
+    	</nav>
+		
+		
+		<div class="container_main">
+			
+			<div class="maincontent">
+				
+                <h1> Book Flight </h1> <br>
+
+                <div class="btn">
+                    <button type="button" id='b1' onclick='setColor("b1")'>One way</button>
+					
+                    <button type="button" id='b2' onclick='setColor("b2")'>Roundtrip</button>
+                </div>
+                <br><br>
+	
+                <div class="row1">
+                    <div class="flying_from">
+                        <h5> Flying From </h5>
+                        <select id="ff">
+                            <option>Delhi</option>
+                            <option>Mumbai</option>
+                            <option>Banglore</option>
+                            <option>Jaipur</option>
+                        </select>
+                    </div>
+
+                    <div class="flying_to">
+                        <h5> Flying To </h5>
+                        <select id="ft">
+                            <option>London</option>
+                            <option>Germany</option>
+                            <option>Paris</option>
+                            <option>capestone</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <br>
+
+                <div class="row2">
+                    <div class="departing">
+                        <h5> Departing</h5>
+                        <input id="depart" type="date" min="" placeholder="mm/dd/yyyy">
+                    </div>
+
+                    <div class="returning">
+                        <h5> Returning </h5>
+                        <input id='rtn' type="date"  placeholder="mm/dd/yyyy">
+                    </div>
+
+                    <div class="count">
+                        <div class="adult">
+                            <h5> Adults</h5>
+                            <input type="number" id="Apoints"
+                                    min="0" max="20" step="1" value="0" required>
+                        </div>
+                        
+                        <div class="child">
+                            <h5> Children </h5>
+                            <input type="number" id="Cpoints"
+                                min="0" max="20" step="1" value="0">
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div id="choices">
+                    <div id="choiceone">
+                        <h4>Prefered Class</h4>
+                        <select id="sel1">
+                            <option>First class</option>
+                            <option>Business</option>
+                            <option>Economic</option>
+                        </select>
+                    </div>
+                    <br>
+
+                    <div id="choicetwo">
+                        <label class="m1">
+                            <input type="checkbox" id='meal'> Meal</label>
+                        
+                        <label class="w1">
+                            <input type="checkbox" id='wifi'> Wifi </label>
+                    </div>
+                </div><br>
+
+				<div class="b1">
+                    <button type="button" class="b1" onclick="getDetails()">BOOK </button>
+				</div>
+                <br><br>
+           </div>
+        </div>
+	</body>
+	
+	<footer>
+	</footer>
+</html>

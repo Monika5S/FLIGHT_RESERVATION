@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+	background-image:url("https://new-img.patrika.com/upload/2021/03/09/smartphone_2_6736407-m.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.maincontent{
+	margin-top: 10%;
+	margin-left: 20px;
+    text-align: center;
+	display: flex;
+}
+.maincontent .otp h3{
+	color: rgb(12, 68, 12);
+}
+.otp{
+    
+    text-align: right;
+    color: rgb(24, 21, 17);
+    width:50%;
+	margin: auto;
+	padding: 1%;
+	background-color: rgba(235, 228, 228, 0.5);
+	margin-top: 40px;
+	box-shadow: 10px 10px 5px rgb(209, 205, 205);
+	text-align:center;
+}
+
+.submit {
+	background-color: #2c1563; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+footer{
+	height: 40px;
+	color: blanchedalmond;
+	text-align: center;
+	margin-top: 15px;
+	font-size:20px;
+}

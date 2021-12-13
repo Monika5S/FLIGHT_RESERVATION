@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+	background-color: #040D21;
+}
+
+header h1
+{
+	padding:2% 0%;
+}
+
+.navbar
+{
+	margin:2% 0%;
+	display:flex;
+	background-color: #245b;
+	
+	column-count: 3;
+	column-gap: 3%;
+}
+
+.navbar a
+{
+	font-family: monospace;
+	font-size: 20px;
+	color:white;
+	text-align: center;
+	
+	margin-left:2%;
+	padding:2%;
+}
+
+.navbar a:hover {
+    background-color:darkgrey;
+  }
+
+.container_main
+{
+	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/airplane-wallpaper-2.jpg");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	padding:1% 1%;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+.maincontent
+{
+	width:80%;
+	margin: auto;
+	padding: 1%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	margin-top: 40px;
+	box-shadow: 10px 10px 5px black;
+}
+
+.maincontent input 
+{
+	color: #333;
+	padding:5%;
+}
+
+.btn button
+{
+	padding: 2% 4%;
+	font-size:15px;
+}
+
+h5
+{
+	margin-bottom:4%;
+}
+
+.row1
+{
+	display: flex;
+	column-count:2;
+	column-gap: 8%;
+}
+#ff
+{
+	padding:10px;
+}
+#ft
+{
+	padding:10px;
+}
+
+.row2
+{
+	display: flex;
+	column-count: 4;
+	column-gap: 11%;
+}
+
+.count 
+{
+	display: flex;
+	column-count: 2;
+	column-gap: 60%;
+}
+
+.count input
+{
+	margin-top:4px;
+	padding:9px;
+}
+
+/* for selection inputs */
+#sel1
+{
+	margin-top:4px;
+	padding:9px;
+	width:15%;
+}
+
+.b1 button
+{
+	padding: 1% 4%;
+	font-size:15px; 
+	border-radius: 6px;
+	color:#fff;
+	background-color:royalblue;
+}

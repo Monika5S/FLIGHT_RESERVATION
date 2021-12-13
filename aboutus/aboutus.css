@@ -1,0 +1,24 @@
+img{
+    border-radius: 50%;
+    width:30%;
+    margin-right:1.5%;
+    margin-left: 1.5%;
+}
+
+header
+{
+    padding-bottom: 2%;
+}
+
+body
+{
+    background-color:lemonchiffon;
+}
+
+p{
+    margin:2% 5% ;
+    /* color:black; */
+    font-family: monospace;
+    font-size: 20px;
+
+}

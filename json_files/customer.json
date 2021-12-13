@@ -1,0 +1,24 @@
+{
+    "passenger":[
+    {
+        "user_name":"Monika",
+        "email":"abc@gmail.com",
+        "password":"Group7#1"
+    },
+    {
+        "user_name":"Reva",
+        "email":"xyz@gmail.com",
+        "password":"xyz1234"
+    },
+    {
+        "user_name":"Surbhi",
+        "email":"ks60@gmail.com",
+        "password":"Group7#2"
+    },
+    {
+        "user_name":"Akansha",
+        "email":"ak38@gmail.com",
+        "password":"Group7#3"
+    }
+]
+}

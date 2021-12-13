@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="payment.css">
+<html>
+	<head>
+		<title>Payment</title>
+		<link rel="icon" type="image/png" href="pay.png"/>
+	</head>
+
+	<header>
+		<h1>PAYMENT</h1>
+			<nav>
+				<a href="/index.html">Home</a>
+				<a href="/myflight/MyFlight.html">My flight </a>
+				<a href="/Information/info.html">Informtion</a>
+			</nav>
+	</header>
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="/Payment/payment.js"> </script>
+
+	<body>
+		<div class="main_container">
+
+			<div class="maincontent">
+
+				<h1>Payment Method</h1><br><br>
+
+				<div class="Amt">
+					<label>Amount</label>
+					<p id="amount">0 Rs</p>
+				</div><br>
+
+				<h3>DEBIT/CREDIT CARD</h3><br>
+				
+				<label>Card HolderName  </label>
+				<input type="text" name="fullname" id="name" requried placeholder=" Enter Name " size="30" >
+				<br><br>
+				
+				<label>Card Number  </label>
+				<input type="tel" name="number" id="number" placeholder="Enter 16-digit Number" size="20">
+				<br><br>
+				
+				<label>CVV  </label>
+				<input type="password" name="password" id="cvv" placeholder="Enter CVV" size="8">
+				<br><br>
+				
+				<label>Expiration Month/year  </label>
+					<input type="month" name="month" id="month" placeholder="yyyy/mm">
+				<br><br>
+
+				<!-- <label>Amount  </label>
+					<input type="tel" name="amount" id="amt" placeholder="Enter Amount" size="10">
+				<br><br> -->
+				
+				<label for="types">Card Type</label>
+				<select id="types">
+						<option>Rupay </option>
+						<option>Maestro</option>
+						<option>MasterCard</option>
+						<option>Visa</option>
+				</select>
+				<br><br>
+			
+				<!-- <a href="/Payment/otp.html"> -->
+					<button class="button" onclick="validateform()">Next</button>
+				<!-- </a> -->
+				<br><br>
+				<div class="secure">
+					100% Payment Protection,Easy Return Policy
+				</div>
+
+			</div>
+		</div>
+	</body>
+
+	<footer>
+		<p>copyright &copy; by FlyLight</p>
+	</footer>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="/contactus/contactUs.css">
+	
+    <script  src="https://kit.fontawesome.com/a076d05399.js"></script>   
+    
+
+    <head>
+        <title>CONTACT US</title>
+        <script src="contactUs.js"></script>
+    </head>
+	
+	<style>
+		@import url("/homeStyle.css");
+	</style>
+    
+	<header>
+        <h1>CONTACT US</h1>
+            <nav>
+                <a href="/index.html">Home</a>
+                <a href="/myflight/MyFlight.html">My flight </a>
+                <a href="/Information/info.html">Informtion</a>
+            </nav>
+        </header>
+  
+<body>
+  
+   <div class="contact-parent">
+        <div class="contact-child child1">
+            <p>
+                <i class="fas fa-map-marker-alt"></i> Address <br />
+                    <span> PUNJABI BAGH ,80 SHUBHUM ENCLAVE
+                     <br />
+                       DELHI
+                    </span>
+            </p>
+
+            <p>
+                <i class="fas fa-phone-alt"></i> Let's Talk <br />
+                    <span> 0787878787</span>
+            </p>
+
+            <p>
+                <i class=" far fa-envelope"></i> General Support <br />
+                <span>Flight.Officials@gmail.com</span>
+            </p>
+        </div>
+
+      <div class="contact-child child2">
+        <div class="inside-contact">
+            <h2>Contact Us</h2><br>
+            <div id="error_message"></div>
+            <form id="myform" onsubmit="return validate();">
+
+            <div class="s1">
+                <div class="c1">
+                  <label for="Name"> Name</label>
+                </div>
+                <div class="c2">
+                  <input type="text" id="name" name="Name" placeholder="Enter your name" required="required" >
+                </div>
+              </div>
+              <div class="s1">
+                <div class="c1">
+                  <label for="Email">Email</label>
+                </div>
+                <div class="c2">
+                  <input type="text" id="email" name="Email" placeholder="abc123@gmail.com" required="required" >
+                </div>
+              </div>
+              <div class="s1">
+                <div class="c1">
+                  <label for="phone no">Phone</label>
+                </div>
+                <div class="c2">
+                  <input type="text" id="phone" name="phone" placeholder="Your Phone Number" required="required" >
+                </div>
+              </div>
+              
+              <div class="s1">
+                <div class="c1">
+                  <label for="MESSAGE">Message</label>
+                </div>
+				  
+                <div class="c2">
+                  <textarea id="message" name="MESSAGE" placeholder="Please Write the Query here.." style="height:100px" required="required" ></textarea>
+                </div>
+              </div>
+              <br>
+              
+      </div>
+      <div class="btn">
+        <a href='/index.html'><input type="submit" value="Submit"></a>
+      </div>
+   </div> 
+  </form>
+	</div>
+
+</body>
+</html>

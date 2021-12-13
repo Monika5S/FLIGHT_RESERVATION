@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body
+{
+	background-image: url('https://i2-prod.mirror.co.uk/incoming/article3948630.ece/ALTERNATES/s615/-1Flight-attendant-serving-customers-on-an-airplane.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h3
+{
+
+	width:50%;
+	margin: auto;
+	padding-left: 15%;
+    padding-top: 2%;
+	background-color: rgba(59, 42, 10, 0.6);
+	color: whitesmoke;
+	margin-top: 40px;
+	box-shadow: 10px 10px 5px black;
+	margin-bottom: 2%;
+	font-family: Algerian;
+	font-size: 20px;
+	display:flex;
+    
+}
+
+.b1 button
+{
+	padding: 1% 4%;
+	font-size:15px; 
+	/*border-radius: 6px;*/
+	color:#fff;
+	background-color:rgba(59, 42, 10, 6);
+	margin-left: 40%;
+	border-radius: 10%;
+}
+
+

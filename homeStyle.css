@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+	display: flex;
+	width:100%;
+}
+
+header h1
+{
+    font-family: cursive;
+    font-size: 40px;
+    width: 67%;
+    color: whitesmoke;
+    margin-left: 4%;
+}
+
+
+header nav{
+	width:30%;
+    display: block;
+    text-align:center;
+	padding-top: 3%;
+	background-color: #245b;
+	border-bottom-left-radius: 50px;
+  }
+  
+ header nav a{  
+	padding:10% 5%;
+	font-size: 20px;
+	color: whitesmoke;
+  }
+  
+ header nav a:hover {
+    background-color:darkgrey;
+  }
+
+body
+{
+	background-color: #040D21;
+}
+
+a
+{
+	text-decoration-line: none;
+	color: black;
+}
+
+/*                account       */
+.CREATE_ACCOUNT
+{
+    color: rgb(47, 8, 153);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.puredestinations.co.uk/wp-content/uploads/2016/06/header-Qatar-Airways-introduces-Dreamliner-aircraft-to-Birmingham-International-Airport--1600x500.jpg");
+	background-size:cover;
+    border-radius: 7px;
+    margin: 4%;
+	padding-top:2%;
+}
+
+
+.CREATE_ACCOUNT a
+{
+	color:cornflowerblue;
+}
+
+.CREATE_ACCOUNT label
+{
+	width:10%;
+	float:left;
+	margin-left:30%;
+	margin-right:0px;
+	font-size: 120%;
+	color:black;
+	font-family:monospace;
+    font-size: 20px;
+	color:black;
+}
+
+.CREATE_ACCOUNT input[type="text"],[type="email"],[type="password"]
+{
+	padding:8px;
+	width:30%;
+	margin-right:28%;
+}
+
+hr
+{
+	margin: 1% 25%;
+	color:darkslategrey;
+	background-color:darkslategrey;
+	height:2px;
+	border-radius: 250px;
+}
+
+.CREATE_ACCOUNT button 
+{
+    background-color: ghostwhite;
+    color: darkgreen;
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 15%;
+	border-radius: 50px;
+	font-size: 100%;
+}
+
+/* offers section */
+.offers{
+    width:96%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.offers h1{
+    text-align: center;
+    color:#fff;
+}
+
+.offers .offers_img{
+	
+    display:flex;
+	column-count:3;
+	column-gap: 2%;
+	padding-bottom: 2%;
+}
+
+.offers .offers_img .img1 img:hover
+{
+    width:94% ;
+    height:94%;
+	border-color: beige;
+	border-style: solid;
+	border-width: thick;
+}
+
+
+.offers .offers_img .img2 img:hover
+{
+    width:94% ;
+    height:94%;
+	border-color: beige;
+	border-style: solid;
+	border-width: thick;
+}
+
+.offers .offers_img .img3 img:hover
+{
+    width:94% ;
+    height:94%;
+	border-color: beige;
+	border-style: solid;
+	border-width: thick;
+}
+
+.offers .offers_img p
+{
+    text-align:center;
+	font-family:monospace;
+	font-size: 30px;
+    color:#fff;
+}
+
+/*for contact us*/
+.down1
+{
+	display: flex;
+	column-gap: 2%;	
+	width:100%;
+}
+
+.contact
+{
+	text-align: center;
+/*	display: table-row-group;*/
+	  padding-bottom: 5px;
+	/* background-color: #245b; */
+    background-color:  rgba(14, 60, 83, 0.616);
+	border-radius: 7px;
+	margin: 4%;
+	padding:1% 0%;
+	width:50%;
+}
+
+.contact p
+{
+	font-family:monospace;
+	font-size: 30px;
+    color:#fff;
+}
+
+.about 
+{
+	text-align: center;
+	display: table-row-group;
+	  padding-bottom: 5px;
+	background-color:  rgba(14, 60, 83, 0.616);
+	border-radius: 7px;
+	margin: 4%;
+	width: 50%;
+	padding:1% 0%;
+	
+}
+
+.about p
+{
+	font-family:monospace;
+	font-size: 30px;
+    color:#fff;
+}
+
+footer
+{
+   text-align: center;
+   background-color: rgba(14, 60, 83, 0.616);
+   bottom: 0px;
+   left:0px;
+   right: 0px;
+   border-top-left-radius: 15%;
+   border-top-right-radius: 15%;
+}
+
+footer .labels_footer 
+{
+    padding-top:1%;
+    font-size: 50px;
+}
+
+footer a
+{
+   color:white;
+}
+ 

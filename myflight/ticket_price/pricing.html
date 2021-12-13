@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>price</title>
+	</head>
+	
+	<style>
+		@import url("/myflight/ticket_price/priceStyle.css");
+	</style>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="pricing.js"></script>
+	
+	<body>
+		<div class='pricing'>
+			<div class='c'>
+				<p id='p1'>Number of Tickets</p>
+				<p id='p2'>Children Tickets Price </p>
+				<p id='p3'>Adults Tickets Price</p>
+				<p id='p4'>Final Price</p>
+				<p id='p5'>Wifi & Food</p>
+				<p id='p6'>Tax</p>
+				<p id='p7'>Depart Date</p>
+				<p id='p8'>Flight Number</p>
+				<hr>
+				<p>Total Price</p>
+				
+			</div>
+
+			<div class='c' id="data">
+				<p id='tickets'>0</p>
+				<p id='ct_price'>0.00 Rs</p>
+				<p id='at_price'>0.00 Rs</p>
+				<p id='final_price'>0.00 Rs</p>
+				<p id='add_price'>5%</p>
+				<p id='tax'>0</p>
+				<p id='dprt'>date</p>
+				<p id='ft_num'></p>
+				<hr>
+				<p id='total_price'>0.00 Rs</p>
+			</div>
+
+		</div>
+		<br>
+		
+		<center>
+			<a href="/myflight/MyFlight.html"><button type='button' >Back</button></a>
+			<a href='/Payment/payment.html'><button type='submit'>PAY</button></a>
+		</center>
+	</body>
+</html>

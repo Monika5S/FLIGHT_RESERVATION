@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h1
+{
+	padding:2% 0%;
+}
+
+a
+{
+	text-decoration-line: none;
+	color: black;
+}
+
+.contact-parent{
+    background:whitesmoke;
+    display:flex;
+    margin:30px 0;
+}
+
+.contact-child{
+    display:flex;
+    flex:1;
+   
+}
+
+.child1{
+    background: url("http://aquaclearsolution.com/wp-content/uploads/2020/12/contactus_banner.jpg");
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    color:#fff;
+    padding:100px 0;
+}
+
+.child1 p{
+    padding-left:20%;
+    font-size:20px;
+
+}
+
+.child1 p span{
+    font-size:16px;
+    color:darkgreen;
+
+}
+
+.child2{
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+	background-image: url("https://www.publicdomainpictures.net/pictures/90000/nahled/global-business-background-1401191439oF4.jpg");
+	background-size:cover;
+	padding-bottom: 2%;
+}
+
+.inside-contact{
+    width:80%;
+    margin:0 auto;
+}
+
+.inside-contact h2{
+    text-align:center;
+    margin-top:50px;
+}
+.c1{
+    text-align: center;
+    
+}
+
+::placeholder{
+    color: whitesmoke;
+}
+
+
+.inside-contact input, .inside-contact textarea{
+    width:70%;
+    background-color:darkseagreen;
+    border:2px solid rgba(0,0,0,0.48);
+    padding:5px 10px;
+    margin-bottom:20px;
+}
+
+
+
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+    border:1px solid rgba(0,0,0,0.48);
+  }
+  
+  label {
+    padding: 12px 2px 2px 70px;
+    display: inline-block;
+  }
+  
+  .btn input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color :darkslategray;
+  }
+  .c1 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .c2 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  #error_message{
+    margin-bottom: 20px;
+    width: 66%;
+    margin-left: 12%;
+    background:lightsteelblue;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+
+
+  

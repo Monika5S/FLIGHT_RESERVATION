@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+	display: flex;
+	width:100%;
+  background-color:#040D21 ;
+  padding-bottom: 2%;
+}
+
+header h1
+{
+    font-family: cursive;
+    font-size: 40px;
+    width: 67%;
+    color: whitesmoke;
+    margin-left: 4%;
+}
+
+
+header nav{
+	width:30%;
+    display: block;
+    text-align:center;
+	padding-top: 3%;
+    padding-bottom: 3%;
+	background-color: #245b;
+	border-bottom-left-radius: 50px;
+  }
+  
+ header nav a{  
+	padding:10% 5%;
+	font-size: 20px;
+	color: whitesmoke;
+  }
+  
+ header nav a:hover {
+    background-color:darkgrey;
+  }
+
+body
+{
+
+   background-image: url(https://cdn.uc.assets.prezly.com/a5026f38-f98e-4b51-85e9-d78c1356ea69/-/preview/2048x2048/-/quality/best/-/format/auto/);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    
+}
+
+a
+{
+	text-decoration-line: none;
+	color: black;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color:gray;
+    height:40px;
+  } 
+
+  .main{
+      
+      font-size: 120%;
+
+      background-color: rgba(100, 100, 100, 0.5);
+      
+      height: 70%;
+      width: 60%;
+      margin: 5% 20% 5% 20%;
+      text-align: center;
+      box-shadow: 10px 10px 5px black;
+      color: black;
+}
+.inside-main h2{
+  color:#040D21;
+}
+  .inside-main input {
+    
+    background-color:white;
+    border:2px solid rgba(0,0,0,0.48);
+    padding:18px 70px;
+    margin-bottom:20px;
+    
+}
+
+
+label {
+    
+   
+    width: 210px;
+    display: inline-block;
+    
+  }
+
+  ::placeholder{
+    color: black;
+    text-align: center;
+    font-size: 110%;
+
+}
+.b1 button
+{
+	padding: 1% 4%;
+	font-size:15px; 
+	border-radius: 6px;
+	color:#fff;
+	background-color:#040D21;
+}

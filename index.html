@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link rel="stylesheet" href="homeStyle.css">
+        
+    <script src="https://kit.fontawesome.com/8e5737597c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/index.js"></script>
+        
+
+    <head>
+        <title>FLY LIGHT Airlines</title>
+        <link rel="icon" type="image/png" href="plane.png"/>
+    </head>
+
+    <header>
+        <h1>FLY LIGHT <br> Airlines</h1>
+        <nav>
+            <a href="#">Home </a>
+            <a href="myflight/MyFlight.html"> My flight </a>
+            <a href="/Information/info.html"> Information</a>
+        </nav>
+    </header>
+
+    <body>
+        <div class="CREATE_ACCOUNT"> 
+            <div id="lgo"><h2>LOGOUT</h2><br>
+                <button type="submit" id="sub" onclick="logout()">LOG OUT</button> 
+                <br><br>
+            </div>
+
+            <div id="lgi">
+                <h2 align="center">LOGIN</h2>
+                <br><br>
+
+                <label>EMAIL </label>
+                    <input type="email" name="email" id="email" placeholder=" name@email.com">
+                <br><br>
+                
+                <label>PASSWORD </label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password ">
+                <br><br>
+                
+                <button type="submit" id="sub" onclick="validate()">SUBMIT </button>
+                
+                <hr>
+                
+                <h3>or continue with 
+                    <a href="#">
+                        <i class="fab fa-google" ></i>
+                    </a>
+                </h3>  
+                
+                <br>
+                
+                <h3>Already had an account ?
+                        <a href="#">Sign in</a>
+                </h3> 
+                <br> <br>
+            </div>
+        </div>
+     
+        <!--	offers section   -->
+        <div class="offers">
+            <h1>OUR BEST OFFERS</h1><br>
+            <div class="offers_img">  
+                <div class="img1">
+                    <centre>
+                        <a href="/offers/paris_offer.html">
+                            <p>PARIS</p>
+                            <img src="https://www.planetware.com/wpimages/2020/05/best-bucket-list-destinations-paris-france.jpg" width="90%" height="90%" alt="">
+                        </a>
+                    </centre>
+                </div>
+                
+                <div class="img2">
+                    <centre>
+                        <a href="/offers/london_offer.html">
+                            <p>LONDON</p>
+                            <img src="https://media.farandwide.com/3a/ba/3aba67a64e024c20b5c88df3ff44a0e3.jpg" width="90%" height="90%" alt="">
+                        </a>
+                    </centre>
+                </div>
+
+                <div class="img3">
+                    <centre>
+                        <a href="offers/germany_offer.html">
+                            <p>GERMANY</p>
+                            <img src="https://static.workaway.info/gfx/foto/7/5/4/7/7/754771864132/xl/754771864132_162352342408888.jpg" width="90%" height="90%" alt="">  
+                        </a>
+                    </centre>
+                </div>
+                
+            </div> 
+        </div>
+
+        <br><br>
+        
+        <!-- about us and contact us -->
+        <div class="down1">
+            
+            <div class="contact">
+                <a href="contactus/contactUs.html">
+                    <p>CONTACT US</p>
+                
+                <img src="https://st.depositphotos.com/1265075/2916/i/600/depositphotos_29165825-stock-photo-website-contact-us-icons-on.jpg"
+                    width=70% >
+                </a>
+            </div>
+
+            <div class="about">
+                <a href="/aboutus/aboutus.html">
+                    <p>ABOUT US</p>
+                
+                <img src="https://www.ttrweekly.com/site/wp-content/uploads/2021/06/airplane-flights.jpg" width=70% height=77%>
+                </a>
+            </div>
+
+        </div>
+        <br>
+
+    </body>
+
+    <footer >
+        <div class="labels_footer">
+            <a href="https://www.facebook.com/business" target="_blank"><i class="fab fa-facebook" style="color:#1877F2"></i> </a>
+            
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" style="color:#C40957"></i></a>
+            
+            <a href="https://twitter.com/jacks_flights" target="_blank"><i class="fab fa-twitter" style="color:#2AA4D9"></i></a>
+            
+            <a href="https://www.youtube.com/channel/UCbX7Bv-eDMjnXdNVmj7iMdg" target="_blank"><i class="fab fa-youtube" style="color:red"></i></a>
+        </div>
+        <br>
+    </footer>
+
+</html>
