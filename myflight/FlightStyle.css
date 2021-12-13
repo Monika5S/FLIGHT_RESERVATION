@@ -40,7 +40,8 @@ header h1
 
 .container_main
 {
-	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/airplane-wallpaper-2.jpg");
+/* 	background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/airplane-wallpaper-2.jpg"); */
+	background-color:wheat;
 	background-size:100% 100%;
 	background-repeat: no-repeat;
 	padding:1% 1%;
